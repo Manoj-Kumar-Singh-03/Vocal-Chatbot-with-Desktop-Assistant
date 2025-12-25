@@ -101,8 +101,8 @@ def is_chrome_running():
 
 def google_search(query):
     """Performs Google Search using Custom Search API."""
-    api_key = 'AIzaSyAo8QiTOZAgQnCa9eaFh9E2bZVsfnj8UQA'  # Replace with your API Key
-    cse_id = 'a203374f897c743d4'
+    api_key = ''  # Replace with your API Key
+    cse_id = ''
 
     service = build("customsearch", "v1", developerKey=api_key)
 
@@ -316,8 +316,8 @@ def take_screenshot():
 def google_summary(query):
     """Return a clean 3-sentence summary using Google Custom Search snippets."""
     import re
-    api_key = 'AIzaSyAo8QiTOZAgQnCa9eaFh9E2bZVsfnj8UQA'  # Replace with your actual API key
-    cse_id = 'a203374f897c743d4'  # Replace with your actual CSE ID
+    api_key = ''  # Replace with your actual API key
+    cse_id = ''  # Replace with your actual CSE ID
 
     try:
         service = build("customsearch", "v1", developerKey=api_key)
